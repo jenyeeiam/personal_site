@@ -1,0 +1,38 @@
+# Vcard configuration file
+##
+### param "bgimage" - Background Image or Background Photo
+### param "photo" - Small circle photo
+### param "name" - Your Name
+### param "typed" - Typed text under Name
+### param "social" - Social Links, icon class name you can find here https://fontawesome.com/icons?d=gallery&s=brands&m=free
+### param "buttons" - Buttons, icon class you can find here https://ionicons.com/v4/
+
+main:
+  bgimage: "assets/img/bg1.jpg"
+  photo: ""
+  name: "Jen Yee"
+  typed:
+    - text: "Software Engineer"
+    - text: "Speaker"
+    - text: "Traveler"
+    - text: "Former Professional Athlete"
+  social:
+    - title: "Twitter"
+      icon: "fab fa-twitter"
+      url: "https://twitter.com/jenyeeiam"
+    - title: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/jenyeeiam/"
+    - title: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/jen-yee-70677529/"
+    - title: "Instagram"
+      icon: "fab fa-instagram"
+      url: "https://www.instagram.com/insta_jenyee/"
+  buttons:
+    - title: "Download CV"
+      icon: ""
+      url: "https://drive.google.com/"
+    - title: "Contact Me"
+      icon: ""
+      url: "mailto:jenyee1022@gmail.com"

@@ -1,0 +1,299 @@
+# Sections content configuration file
+##
+### use navigation.yml file to re-order, delete or add section of each card
+### here you can find all content in all pre-build sections
+
+### About [ about ]
+about:
+  title: "About"
+  text: "
+        <p>
+          <strong>Hi I'm Jen</strong><br> Software Engineer from Vancouver, Canada. During the day I work as a Backend Engineer at Sendwave. We make sending money worldwide as easy as sending a text.
+        </p>
+        <p>By night, I follow my curiosity! Lately I've really gotten into making ice cream, and so far my favorite flavor is coffee 😋</p>
+        "
+  list:
+
+    - label: "Residence"
+      value: "Vancouver, Canada"
+
+    - label: "Freelance"
+      value: "Available"
+
+### Services [ services ]
+services:
+  title: "How I can help"
+  items:
+    - icon: "code"
+      name: "Web Development"
+      text: "Modern web applications, including frontend and backend infrastructure."
+      h_line: 1
+
+    - icon: "laptop"
+      name: "Personal Webpages"
+      text: "Landing pages, portfolios, blogs, ecommerce sites."
+      h_line: 1
+
+    - icon: "glasses"
+      name: "Public Speaking"
+      text: "I'm a Toastmaster! Speech delivery, presentation, writing, or if you just need a speaker at your event."
+      h_line: 0
+
+    - icon: "clipboard"
+      name: "Coaching and Video Analysis"
+      text: "As a former professional softball player, I can help with swing analysis and coaching, online or in person"
+      h_line: 0
+
+
+
+### Pricing [ pricing ]
+pricing:
+  title: "Pricing"
+  items:
+    - icon: "speedometer speed-basic"
+      name: "Basic"
+      price_pre: "$"
+      price: "22"
+      price_after: "hour"
+      list:
+        - text: "Web Development"
+          disable: 0
+          new: 0
+
+        - text: "Advetising"
+          disable: 0
+          new: 0
+
+        - text: "Game Development"
+          disable: 0
+          new: 0
+
+        - text: "Music Writing"
+          disable: 1
+          new: 0
+
+        - text: "Photography"
+          disable: 1
+          new: 1
+      button_link: "#"
+      button_text: "Buy Basic"
+
+    - icon: "speedometer"
+      name: "Pro"
+      price_pre: "$"
+      price: "48"
+      price_after: "hour"
+      list:
+        - text: "Web Development"
+          disable: 0
+          new: 0
+
+        - text: "Advetising"
+          disable: 0
+          new: 0
+
+        - text: "Game Development"
+          disable: 0
+          new: 0
+
+        - text: "Music Writing"
+          disable: 0
+          new: 0
+
+        - text: "Photography"
+          disable: 0
+          new: 1
+      button_link: "#"
+      button_text: "Buy Pro"
+
+### Facts [ facts ]
+facts:
+  title: "Fun Facts"
+  items:
+    - icon: "trophy"
+      name: "2008 Olympian"
+
+    - icon: "school"
+      name: "BS, MS Engineering"
+
+    - icon: "logo-google"
+      name: "Level 5 Googler"
+
+    - icon: "flag"
+      name: "23 Countries Visited"
+
+### Clients [ clients ]
+clients:
+  title: "Clients"
+  items:
+    - url: "https://www.google.com"
+      image: "assets/img/clients/client_1.png"
+
+    - url: "https://www.google.com"
+      image: "assets/img/clients/client_2.png"
+
+    - url: "https://www.google.com"
+      image: "assets/img/clients/client_3.png"
+
+    - url: "https://www.google.com"
+      image: "assets/img/clients/client_4.png"
+
+### Testimonials [ testimonials ]
+testimonials:
+  title: "Testimonials"
+  items:
+    - image: "assets/img/man1.jpg"
+      name: "Helen Floyd"
+      subname: "Art Director"
+      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+
+    - image: "assets/img/man1.jpg"
+      name: "Robert Chase"
+      subname: "CEO"
+      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+
+    - image: "assets/img/man1.jpg"
+      name: "Helen Floyd"
+      subname: "Art Director"
+      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+
+### Resume [ resume ]
+resume:
+  title: "Resume"
+  experience:
+    title: "Experience"
+    icon: "briefcase"
+    items:
+      - year: "2019 - Present"
+        role: "Software Engineer"
+        company: "Sendwave"
+        text: "Splitting time between the Risk Team and Delivery Team, I build out integrations and the infrastructure to help immigrants send money back home"
+        active: 1
+        h_line: 1
+
+      - year: "2016 - 2019"
+        role: "Full Stack Developer"
+        company: "UrbanLogiq"
+        text: "As the first hire at an early stage startup I was a jack of all trades bouncing from building software, meeting with clients, customer support among other things. We built software to support municipal governments"
+        active: 0
+        h_line: 1
+
+      - year: "2015 - 2016"
+        role: "Bat Development Engineer"
+        company: "Combat Sports Group"
+        text: "Conducted research and development to optimize baseball and softball bats across various youth leagues."
+        active: 0
+        h_line: 1
+
+      - year: "2013 - 2014"
+        role: "Professional Athlete"
+        company: "戸田中央総合病院"
+        text: "Competed in the Japanese Professional Softball League for two seasons against some of the best competition in the world."
+        active: 0
+        h_line: 1
+
+      - year: "2007 - 2016"
+        role: "Athlete"
+        company: "Softball Canada"
+        text: "Long tenured National Team member. Represented Canada at the 2008 Beijing Olympics and competed in four World Championships in 2010, 2012, 2014 and 2016. Bronze medalist at the 2016 World Championships and gold medalist at the 2015 Pan Am Games."
+        active: 0
+        h_line: 0
+  education:
+    title: "Education"
+    icon: "university"
+    items:
+      - year: "2016"
+        institution: "Lighthouse Labs"
+        city: "Vancouver, BC"
+        text: "Web Development Bootcamp"
+        h_line: 1
+
+      - year: "2011 - 2013"
+        institution: "University of Massachusetts Lowell"
+        city: "Lowell, MA"
+        text: "Master of Science, Mechanical Engineering"
+        h_line: 1
+
+      - year: "2006 - 2010"
+        institution: "Georgia Institute of Technology"
+        city: "Atlanta, GA"
+        text: "Bachelor of Science in Materials Science and Engineering"
+        h_line: 0
+
+### Skills [ skills ]
+skills:
+  title: "Skills"
+  columns:
+    - type: "default" #skills progress type - default, dotted, circles, list
+      title: "Coding"
+      icon: "code"
+      items:
+        - label: "Python / Flask"
+          value: "90" #0-100 progress in %
+
+        - label: "PostgreSQL"
+          value: "90" #0-100 progress in %
+
+        - label: "JavaScript / React"
+          value: "75" #0-100 progress in %
+
+        - label: "Ruby / Rails"
+          value: "75" #0-100 progress in %
+
+    - type: "dotted" #skills progress type - default, dotted, circles, list
+      title: "Languages"
+      icon: "flag"
+      items:
+        - label: "English"
+          value: "100" #0-100 progress in %
+
+        - label: "Spanish"
+          value: "60" #0-100 progress in %
+
+        - label: "Japanese"
+          value: "20" #0-100 progress in %
+
+### Portfolio [ portfolio ]
+portfolio:
+  title: "Recent Works"
+  filters:
+    - name: "All"
+      slug: "grid-item"
+      active: 1
+
+    - name: "Photo"
+      slug: "photo"
+      active: 0
+
+    - name: "Video"
+      slug: "video"
+      active: 0
+
+    - name: "Music"
+      slug: "music"
+      active: 0
+
+    - name: "Design"
+      slug: "design"
+      active: 0
+
+### Blog [ blog ]
+blog:
+  title: "Latest Posts"
+
+### Contact Info List [ contacts-info ]
+contacts_info:
+  title: "Get in Touch"
+  list:
+    - label: "Address"
+      value: "Vancouver, Canada"
+
+    - label: "Email"
+      value: "jenyee1022@gmail.com"
+
+    - label: "Freelance"
+      value: "Available"
+
+### Contact Form [ contacts-form ]
+contacts_form:
+  title: "Contact Form"
