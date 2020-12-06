@@ -8,7 +8,7 @@ about:
   title: "About"
   text: "
         <p>
-          <strong>Hi I'm Jen</strong><br> Software Engineer from Vancouver, Canada. During the day I work as a Backend Engineer at Sendwave. We make sending money worldwide as easy as sending a text.
+          <strong>Hi I'm Jen</strong><br> Software Engineer from Vancouver, Canada. By day I work as a Backend Engineer at Sendwave. We make sending money worldwide as easy as sending a text.
         </p>
         <p>By night, I follow my curiosity! Lately I've really gotten into making ice cream, and so far my favorite flavor is coffee 😋</p>
         "
@@ -34,7 +34,7 @@ services:
       text: "Landing pages, portfolios, blogs, ecommerce sites."
       h_line: 1
 
-    - icon: "glasses"
+    - icon: "mic-a"
       name: "Public Speaking"
       text: "I'm a Toastmaster! Speech delivery, presentation, writing, or if you just need a speaker at your event."
       h_line: 0
@@ -113,10 +113,10 @@ facts:
     - icon: "trophy"
       name: "2008 Olympian"
 
-    - icon: "school"
+    - icon: "university"
       name: "BS, MS Engineering"
 
-    - icon: "logo-google"
+    - icon: "social-google"
       name: "Level 5 Googler"
 
     - icon: "flag"
@@ -181,7 +181,7 @@ resume:
       - year: "2015 - 2016"
         role: "Bat Development Engineer"
         company: "Combat Sports Group"
-        text: "Conducted research and development to optimize baseball and softball bats across various youth leagues."
+        text: "Conducted research and development to optimize performance and durability in baseball and softball bats across various youth leagues."
         active: 0
         h_line: 1
 
@@ -285,7 +285,7 @@ blog:
 contacts_info:
   title: "Get in Touch"
   list:
-    - label: "Address"
+    - label: "Location"
       value: "Vancouver, Canada"
 
     - label: "Email"
