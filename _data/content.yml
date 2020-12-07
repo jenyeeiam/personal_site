@@ -255,26 +255,18 @@ skills:
 
 ### Portfolio [ portfolio ]
 portfolio:
-  title: "Recent Works"
+  title: "Projects and Interests"
   filters:
     - name: "All"
       slug: "grid-item"
       active: 1
 
-    - name: "Photo"
-      slug: "photo"
+    - name: "Tech"
+      slug: "tech"
       active: 0
 
-    - name: "Video"
-      slug: "video"
-      active: 0
-
-    - name: "Music"
-      slug: "music"
-      active: 0
-
-    - name: "Design"
-      slug: "design"
+    - name: "Hobby"
+      slug: "hobby"
       active: 0
 
 ### Blog [ blog ]
