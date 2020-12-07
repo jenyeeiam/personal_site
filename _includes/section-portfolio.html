@@ -21,7 +21,7 @@
 	<!-- content -->
 	<div class="row grid-items border-line-v">
 		{% for work in site.works %}
-		
+
 		{% if work.type == 'photo' or work.type == '' %}
 		<!-- work item photo -->
 		<div class="col col-d-6 col-t-6 col-m-12 grid-item {{ work.category_slug }} border-line-h">
@@ -62,21 +62,41 @@
 		</div>
 		{% endif %}
 
-		{% if work.type == 'music' %}
-		<!-- work item music -->
+		{% if work.type == 'linked-content' %}
+		<!-- content with link -->
 		<div class="col col-d-6 col-t-6 col-m-12 grid-item {{ work.category_slug }} border-line-h">
 			<div class="box-item">
 				<div class="image">
-					<a href="{{ work.music }}" class="has-popup-music">
-						<img src="{{ work.image | relative_url }}" alt="{{ work.title }}" />
+					<a href="#popup-{{ work.id | replace: '/', '-' }}" class="has-popup-media">
+						<img src="{{ work.image | relative_url }}" alt="" />
 						<span class="info">
-							<span class="ion ion-music-note"></span>
+							<span class="ion ion-images"></span>
 						</span>
 					</a>
 				</div>
 				<div class="desc">
-					<a href="{{ work.music }}" class="name has-popup-music">{{ work.title }}</a>
+					<a href="#popup-{{ work.id | replace: '/', '-' }}" class="name has-popup-media">{{ work.title }}</a>
 					<div class="category">{{ work.category }}</div>
+				</div>
+				<div id="popup-{{ work.id | replace: '/', '-' }}" class="popup-box mfp-fade mfp-hide">
+					<div class="content">
+						<div class="image">
+							<img src="{{ work.image | relative_url }}" alt="">
+						</div>
+						<div class="desc">
+							<div class="post-box">
+								<h1>{{ work.title }}</h1>
+								<div class="blog-detail">{{ work.category }}</div>
+								<div class="blog-content">
+									{{ work.content }}
+								</div>
+								<a href="{{ work.button_url }}" class="button">
+									<span class="text">{{ ui_text.view_project }}</span>
+									<span class="arrow"></span>
+								</a>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -105,15 +125,11 @@
 						</div>
 						<div class="desc">
 							<div class="post-box">
-								<h1>{{ work.title }}</h1>						
+								<h1>{{ work.title }}</h1>
 								<div class="blog-detail">{{ work.category }}</div>
 								<div class="blog-content">
 									{{ work.content }}
 								</div>
-								<a href="{{ work.button_url }}" class="button">
-									<span class="text">{{ ui_text.view_project }}</span>
-									<span class="arrow"></span>
-								</a>
 							</div>
 						</div>
 					</div>
