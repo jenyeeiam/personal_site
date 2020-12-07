@@ -12,5 +12,6 @@ Local governments collect traffic data at regular intervals throughout the year.
 Technologies used:
 * React
 * Typescript
+* Mapbox GL JS
 
 ![](assets/img/works/car-demo.gif)
