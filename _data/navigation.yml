@@ -9,7 +9,7 @@
 main:
   #about card
   - title: "About"
-    icon: "person"
+    icon: "md-person"
     slug: "about"
     sections:
         - about
@@ -18,7 +18,7 @@ main:
 
   #resume card
   - title: "Resume"
-    icon: "android-list"
+    icon: "md-list-box"
     slug: "resume"
     sections:
         - resume
@@ -26,7 +26,7 @@ main:
 
   #works card
   - title: "works"
-    icon: "happy-outline"
+    icon: "md-browsers"
     slug: "works"
     sections:
         - portfolio
@@ -40,7 +40,7 @@ main:
 
   #contact card
   - title: "Contact"
-    icon: "at"
+    icon: "md-mail"
     slug: "contacts"
     sections:
         - contacts-info
