@@ -24,22 +24,22 @@ about:
 services:
   title: "How I can help"
   items:
-    - icon: "code"
+    - icon: "md-code"
       name: "Web Development"
       text: "Modern web applications, including frontend and backend infrastructure."
       h_line: 1
 
-    - icon: "laptop"
+    - icon: "md-laptop"
       name: "Personal Webpages"
       text: "Landing pages, portfolios, blogs, ecommerce sites."
       h_line: 1
 
-    - icon: "mic-a"
+    - icon: "md-mic"
       name: "Public Speaking"
       text: "I'm a Toastmaster! Speech delivery, presentation, writing, or if you just need a speaker at your event."
       h_line: 0
 
-    - icon: "clipboard"
+    - icon: "md-baseball"
       name: "Coaching and Video Analysis"
       text: "As a former professional softball player, I can help with swing analysis and coaching, online or in person"
       h_line: 0
@@ -110,16 +110,16 @@ pricing:
 facts:
   title: "Fun Facts"
   items:
-    - icon: "trophy"
+    - icon: "md-trophy"
       name: "2008 Olympian"
 
-    - icon: "university"
+    - icon: "md-school"
       name: "BS, MS Engineering"
 
-    - icon: "social-google"
+    - icon: "logo-google"
       name: "Level 5 Googler"
 
-    - icon: "flag"
+    - icon: "md-globe"
       name: "23 Countries Visited"
 
 ### Clients [ clients ]
@@ -162,7 +162,7 @@ resume:
   title: "Resume"
   experience:
     title: "Experience"
-    icon: "briefcase"
+    icon: "md-briefcase"
     items:
       - year: "2019 - Present"
         role: "Software Engineer"
@@ -200,7 +200,7 @@ resume:
         h_line: 0
   education:
     title: "Education"
-    icon: "university"
+    icon: "md-school"
     items:
       - year: "2016"
         institution: "Lighthouse Labs"
@@ -225,8 +225,8 @@ skills:
   title: "Skills"
   columns:
     - type: "default" #skills progress type - default, dotted, circles, list
-      title: "Coding"
-      icon: "code"
+      title: "Programming"
+      icon: "md-code"
       items:
         - label: "Python / Flask"
           value: "90" #0-100 progress in %
@@ -242,7 +242,7 @@ skills:
 
     - type: "dotted" #skills progress type - default, dotted, circles, list
       title: "Languages"
-      icon: "flag"
+      icon: "md-chatboxes"
       items:
         - label: "English"
           value: "100" #0-100 progress in %
