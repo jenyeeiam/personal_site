@@ -116,8 +116,8 @@ facts:
     - icon: "md-school"
       name: "BS, MS Engineering"
 
-    - icon: "logo-google"
-      name: "Level 5 Googler"
+    - icon: "md-cafe"
+      name: "Coffee Aficionado"
 
     - icon: "md-globe"
       name: "23 Countries Visited"
