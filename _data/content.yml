@@ -120,7 +120,7 @@ facts:
       name: "Coffee Aficionado"
 
     - icon: "md-globe"
-      name: "23 Countries Visited"
+      name: "24 Countries Visited"
 
 ### Clients [ clients ]
 clients:
@@ -167,14 +167,14 @@ resume:
       - year: "2019 - Present"
         role: "Software Engineer"
         company: "Sendwave"
-        text: "Splitting time between the Risk Team and Delivery Team, I build out integrations and the infrastructure to help immigrants send money back home"
+        text: "Splitting time between the Risk Team and Payments Team, I build out integrations and the infrastructure to help immigrants send money back home."
         active: 1
         h_line: 1
 
       - year: "2016 - 2019"
         role: "Full Stack Developer"
         company: "UrbanLogiq"
-        text: "As the first hire at an early stage startup I was a jack of all trades bouncing from building software, meeting with clients, customer support among other things. We built software to support municipal governments"
+        text: "As the first hire at an early stage startup, I was a do'er of all things. I bounced from building software, meeting with clients, customer support and managing projects. We built software to support municipal governments."
         active: 0
         h_line: 1
 
