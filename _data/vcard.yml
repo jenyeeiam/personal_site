@@ -30,9 +30,9 @@ main:
       icon: "fab fa-instagram"
       url: "https://www.instagram.com/insta_jenyee/"
   buttons:
-    - title: "Download CV"
+    - title: "View CV"
       icon: ""
       url: "https://resume.creddle.io/resume/5c2a62t5bnn"
-    - title: "Contact Me"
+    - title: "Work With Me"
       icon: ""
-      url: "mailto:jenyee1022@gmail.com"
+      url: "https://www.sendwave.com/careers"
