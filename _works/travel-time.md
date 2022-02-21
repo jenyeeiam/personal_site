@@ -3,7 +3,7 @@ title: Nordel Travel Time
 category: Tech
 category_slug: tech
 type: linked-content
-image: assets/img/works/highway.jpg
+image: assets/img/works/square_road.jpg
 button_url: https://github.com/jenyeeiam/nordel-travel-time
 ---
 
