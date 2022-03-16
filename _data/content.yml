@@ -8,9 +8,9 @@ about:
   title: "About"
   text: "
         <p>
-          <strong>Hi I'm Jen</strong><br> Software Engineer based in Vancouver Canada. By day, I work as a Backend Engineer at Sendwave. We make sending money worldwide as easy as sending a text.
+          <strong>Hi I'm Jen</strong><br> Software Engineer based in Vancouver Canada. By day, I work with the Detroit Tigers on the Baseball Operations team. I help coaches, scouts and front office staff make the best decisions to help the Tigers win a World Series.
         </p>
-        <p>By night, I follow my curiosity! I learn languages, play underwater hockey, or experiment with a new ice cream flavor. What's your favorite flavor of ice cream?</p>
+        <p>By night, I follow my curiosity! I work on my Spanish, play underwater hockey, or experiment with a new ice cream flavor. What's your favorite flavor of ice cream?</p>
         "
   list:
 
@@ -164,11 +164,17 @@ resume:
     title: "Experience"
     icon: "md-briefcase"
     items:
-      - year: "2019 - Present"
+      - year: "2022 - Present"
+        role: "Software Engineer"
+        company: "Detroit Tigers"
+        text: "I work with the Baseball Operations team. We build tools to visualize baseball data, scouting reports and player performance."
+        active: 1
+        h_line: 1
+      - year: "2019 - 2022"
         role: "Software Engineer"
         company: "Sendwave"
         text: "Splitting time between the Risk Team and Payments Team, I build out integrations and the infrastructure to help immigrants send money back home."
-        active: 1
+        active: 0
         h_line: 1
 
       - year: "2016 - 2019"
