@@ -120,7 +120,7 @@ facts:
       name: "Coffee Aficionado"
 
     - icon: "md-globe"
-      name: "24 Countries Visited"
+      name: "25 Countries Visited"
 
 ### Clients [ clients ]
 clients:
