@@ -17,9 +17,9 @@ main:
     - text: "Traveler"
     - text: "Former Professional Athlete"
   social:
-    - title: "Twitter"
-      icon: "fab fa-twitter"
-      url: "https://twitter.com/jenyeeiam"
+    - title: "Substack"
+      icon: "fa-sharp fa-solid fa-bookmark"
+      url: "https://jenyee.substack.com/"
     - title: "GitHub"
       icon: "fab fa-github"
       url: "https://github.com/jenyeeiam/"
@@ -35,4 +35,4 @@ main:
       url: "https://resume.creddle.io/resume/5c2a62t5bnn"
     - title: "Work With Me"
       icon: ""
-      url: "https://www.ilitchcompanies.com/careers.asp"
+      url: "mailto:jenyee1022@gmail.com"

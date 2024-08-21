@@ -8,8 +8,9 @@ about:
   title: "About"
   text: "
         <p>
-          <strong>Hi I'm Jen</strong><br> Software Engineer based in Vancouver Canada. By day, I work with the Detroit Tigers on the Baseball Operations team. I help coaches, scouts and front office staff make the best decisions to help the Tigers win a World Series.
+          <strong>Hi I'm Jen</strong><br> Software Engineer based in Vancouver Canada. By day, I write code, but I'm also a brand new franchise owner of <a href='https://www.fivestarholidaydecor.com/vancouver-christmas-lights/' target='_blank' id='fivestar'>Five Star Holiday Decor</a>, and we install Christmas lights for residential and commercial clients. Let me make your home just a little more festive this holiday season. Or if you just need a new website, I'm your girl.
         </p>
+        <br>
         <p>By night, I follow my curiosity! I work on my Spanish, play underwater hockey, or experiment with a new ice cream flavor. What's your favorite flavor of ice cream?</p>
         "
   list:
@@ -39,9 +40,9 @@ services:
       text: "I'm a Toastmaster! Speech delivery, presentation, writing, or if you just need a speaker at your event."
       h_line: 0
 
-    - icon: "md-baseball"
-      name: "Coaching and Video Analysis"
-      text: "As a former professional softball player, I can help with swing analysis and coaching, online or in person"
+    - icon: "md-bulb"
+      name: "Temporary and Permanent Holiday Lighting"
+      text: "Install, take down, and store your holiday lights. Or, permanently install Celebright LED lights."
       h_line: 0
 
 
@@ -164,7 +165,7 @@ resume:
     title: "Experience"
     icon: "md-briefcase"
     items:
-      - year: "2022 - Present"
+      - year: "2022 - 2024"
         role: "Software Engineer"
         company: "Detroit Tigers"
         text: "I work with the Baseball Operations team. We build tools to visualize baseball data, scouting reports and player performance."
@@ -234,10 +235,19 @@ skills:
       title: "Programming"
       icon: "md-code"
       items:
+        - label: "Angular / AngularJS"
+          value: "90" #0-100 progress in %
+        
+        - label: "Java Spring"
+          value: "70"
+
+        - label: "C# / .NET"
+          value: "70"
+
         - label: "Python / Flask"
           value: "90" #0-100 progress in %
 
-        - label: "PostgreSQL"
+        - label: "SQL"
           value: "90" #0-100 progress in %
 
         - label: "JavaScript / React"
