@@ -17,9 +17,6 @@ main:
     - text: "Traveler"
     - text: "Former Professional Athlete"
   social:
-    - title: "Substack"
-      icon: "fa-sharp fa-solid fa-bookmark"
-      url: "https://jenyee.substack.com/"
     - title: "GitHub"
       icon: "fab fa-github"
       url: "https://github.com/jenyeeiam/"
