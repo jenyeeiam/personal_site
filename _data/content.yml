@@ -168,7 +168,7 @@ resume:
       - year: "2022 - 2024"
         role: "Software Engineer"
         company: "Detroit Tigers"
-        text: "I work with the Baseball Operations team. We build tools to visualize baseball data, scouting reports and player performance."
+        text: "I worked with the Baseball Operations team. We built tools to visualize baseball data, scouting reports and player performance."
         active: 1
         h_line: 1
       - year: "2019 - 2022"
