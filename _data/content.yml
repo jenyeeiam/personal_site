@@ -8,10 +8,18 @@ about:
   title: "About"
   text: "
         <p>
-          <strong>Hi I'm Jen</strong><br> Account Executive and former Software Engineer based in Vancouver. I help businesses grow, whether it's closing net new deals, building lasting client relationships, or translating complex tech into clear value. In a past life, I competed for Team Canada in the 2008 Olympics, so setting and exceeding goals is kind of my thing.
+          <strong>Hi I'm Jen</strong><br> BDR at Skillgrader. Ex-Engineer. Olympian. Startup Enthusiast.
         </p>
         <br>
-        <p>By night, I follow my curiosity! I enjoy smashing pickleballs, tasting wine, or experimenting with a new ice cream flavor. What's your favorite flavor of ice cream?</p>
+        <p>
+        After years of building software, I realized my true passion lies in getting it into the hands of users. I've traded my IDE for a CRM and haven't looked back.
+        </p>
+        <br>
+        <p>
+        I bring a rare mix to the table: the technical depth of an engineer, the grit of a franchise owner, and the discipline of an Olympian (Team Canada, 2008). I love the scrappiness of the startup world and thrive on the challenge of net-new business.
+        </p>
+        <br>
+        <p><strong>Offline:</strong> 🥒 Pickleball player, 🍷 Wine enthusiast, 🍦 Ice cream connoisseur.</p>
         "
   list:
 
@@ -165,11 +173,29 @@ resume:
     title: "Experience"
     icon: "md-briefcase"
     items:
+      - year: "2025 - Present"
+        role: "Business Development Representative"
+        company: "Skillgrader"
+        text: "Drive net-new business for a platform that replaces subjective, paper-based assessments with digital tools. Help departments spot skill gaps through our dashboard that captures and analyzes scores. Leverage technical background to connect with prospects, qualify leads, and build pipeline in a fast-paced startup environment."
+        active: 1
+        h_line: 1
+      - year: "2025"
+        role: "Wine Sales Agent"
+        company: "Wodka Vines"
+        text: "Represented a portfolio of wines to private liquor stores and restaurants. Built relationships with buyers, conducted product tastings, and managed accounts across the territory."
+        active: 0
+        h_line: 1
+      - year: "2024 - 2025"
+        role: "Franchise Owner"
+        company: "Five Star Holiday Decor"
+        text: "Co-owned and operated a holiday lighting franchise with my brother. Managed all aspects of the business including client relations, scheduling, and finances while personally handling installations. Balanced technical execution with entrepreneurial responsibilities."
+        active: 0
+        h_line: 1
       - year: "2022 - 2024"
         role: "Software Engineer"
         company: "Detroit Tigers"
         text: "I worked with the Baseball Operations team. We built tools to visualize baseball data, scouting reports and player performance."
-        active: 1
+        active: 0
         h_line: 1
       - year: "2019 - 2022"
         role: "Software Engineer"
