@@ -173,11 +173,29 @@ resume:
     title: "Experience"
     icon: "md-briefcase"
     items:
+      - year: "2025 - Present"
+        role: "Business Development Representative"
+        company: "Skillgrader"
+        text: "Drive net-new business for a platform that replaces subjective, paper-based assessments with digital tools. Help departments spot skill gaps through our dashboard that captures and analyzes scores. Leverage technical background to connect with prospects, qualify leads, and build pipeline in a fast-paced startup environment."
+        active: 1
+        h_line: 1
+      - year: "2025"
+        role: "Wine Sales Agent"
+        company: "Wodka Vines"
+        text: "Represented a portfolio of wines to private liquor stores and restaurants. Built relationships with buyers, conducted product tastings, and managed accounts across the territory."
+        active: 0
+        h_line: 1
+      - year: "2024 - 2025"
+        role: "Franchise Owner"
+        company: "Five Star Holiday Decor"
+        text: "Co-owned and operated a holiday lighting franchise with my brother. Managed all aspects of the business including client relations, scheduling, and finances while personally handling installations. Balanced technical execution with entrepreneurial responsibilities."
+        active: 0
+        h_line: 1
       - year: "2022 - 2024"
         role: "Software Engineer"
         company: "Detroit Tigers"
         text: "I worked with the Baseball Operations team. We built tools to visualize baseball data, scouting reports and player performance."
-        active: 1
+        active: 0
         h_line: 1
       - year: "2019 - 2022"
         role: "Software Engineer"
